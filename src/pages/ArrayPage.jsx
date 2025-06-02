@@ -100,6 +100,11 @@ const ArrayPage = () => {
       return copy ; 
     }
   )
+  if(update){
+  toast.success('Updated') ; 
+}else{
+  toast.success('Inserted')
+}
 setNextValue(0)
 }
   }}

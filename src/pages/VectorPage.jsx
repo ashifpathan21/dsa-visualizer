@@ -62,13 +62,19 @@ const ArrayPage = () => {
   )
 
   
-setNextValue(0)
+setNextValue(0) ;
+if(update){
+  toast.success('Updated') ; 
+}else{
+  toast.success('Inserted')
+}
+
 
   }}
   >Submit</button>
 </div>}
 
-<div className='w-full flex justify-center items-center flex-col p-8 text-xl  font-semibold '>
+<div className='w-full mt-5 flex justify-center items-center flex-col p-8 text-xl  font-semibold '>
     <p>{"Size : " + (nextIndex)}</p>
     <p>{"Capacity : " + (array.length)}</p>
 </div>
