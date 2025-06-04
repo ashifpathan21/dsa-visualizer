@@ -7,7 +7,7 @@ const Grid = () => {
 
 
   return (
-    <div className='w-full z-20 relative  bg-zinc-500  p-4 py-6   h-full'>
+    <div className='w-full z-20 relative mb-20 min-h-screen  bg-zinc-500  p-4 py-6   h-full'>
      
      <h2 className='font-bold text-zinc-300  text-2xl text-center mt-15  '>Linear Data Structure </h2>
       
